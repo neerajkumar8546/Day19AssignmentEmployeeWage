@@ -12,11 +12,11 @@ public class EmployeeWage
 		double check=Math.floor(Math.random()*10)%3;
 		if(check==is_FULL_TIME)
 		{
-			empHrs=8;
+			empHrs=4;
 		}
 		else if(check==is_Part_Time)
 		{
-			empHrs=4;
+			empHrs=8;
 		}
 		else
 		{
